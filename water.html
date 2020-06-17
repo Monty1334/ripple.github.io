@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>monty</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.js"></script>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            width: 100%;
+            height: 100vh;
+            background: url(mk.jpg) no-repeat center; 
+            background-size: cover;        
+        }
+              
+    </style>
+     
+</head>
+<body>
+    <section></section>
+
+    <script>
+        $("section").ripples({
+             resolution: 200,
+            perturbance: 0.04
+    });
+    </script>
+</body>
+</html>
